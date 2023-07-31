@@ -1,0 +1,257 @@
+body {
+  background-color: #F7F9FC;
+  font-family: 'Heebo', sans-serif;
+}
+
+.home-card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 0.5px solid lightgrey;
+  margin-top: 30px;
+  margin-left: 350px;
+  margin-right: 350px;
+}
+
+div {
+  box-shadow: #2c0707
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  color: #575F7D;
+}
+
+p {
+  color: #575F7D;
+}
+
+a:hover {
+  color: #000000;
+}
+
+.btn-bleu {
+  text-decoration: none;
+  border: solid 1px;
+  background-color: rgb(20, 116, 138);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #7ED09E;
+}
+
+ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+li {
+  padding: 25px;
+  font-size: 35px;
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  body {
+    background-color: #F7F9FC;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .home-card {
+    text-align: center;
+    background: rgb(211, 82, 82);
+    padding: 30px;
+    border: 0.5px solid rgb(125, 35, 35);
+    margin-top: 130px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+  div {
+    box-shadow: #2c0707
+  }
+
+  img {
+    width: 150px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    color: #575F7D;
+  }
+
+  p {
+    color: #575F7D;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  .btn-bleu {
+    text-decoration: none;
+    border: solid 1px;
+    background-color: rgb(20, 116, 138);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  h2 {
+    color: #7ED09E;
+  }
+
+  ul {
+    display: inline-flex;
+    list-style: none;
+  }
+
+  li {
+    padding: 25px;
+    font-size: 35px;
+  }
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  body {
+    background-color: #092349;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .home-card {
+    text-align: center;
+    background: rgb(104, 82, 142);
+    padding: 30px;
+    border: 0.5px solid lightgrey;
+    border-radius: 5%;
+    margin-top: 30px;
+    margin-left: 130px;
+    margin-right: 130px;
+  }
+
+  div {
+    box-shadow: #2c0707
+  }
+
+  img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    color: #d7d9e0;
+  }
+
+  p {
+    color: #050505;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  .btn-bleu {
+    text-decoration: none;
+    border: solid 1px;
+    background-color: rgb(20, 116, 138);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  h2 {
+    color: #7ED09E;
+  }
+
+  ul {
+    display: inline-flex;
+    list-style: none;
+  }
+
+  li {
+    padding: 25px;
+    font-size: 35px;
+  }
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  body {
+    background-color: #ed91da;
+    font-family: 'Heebo', sans-serif;
+  }
+
+  .home-card {
+    text-align: center;
+    background: rgb(66, 65, 65);
+    width: 400px;
+    padding: 30px;
+    border: 0.5px solid lightgrey;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  div {
+    box-shadow: #d3a7a7
+  }
+
+  img {
+    width: 100px;
+    border-radius: 50%;
+  }
+
+  h1 {
+    color: #f2f3f7;
+  }
+
+  p {
+    color: #e6e7ec;
+  }
+
+  a:hover {
+    color: #000000;
+  }
+
+  .btn-bleu {
+    text-decoration: none;
+    border: solid 1px;
+    background-color: rgb(183, 192, 82);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  h2 {
+    color: #7ED09E;
+  }
+
+  ul {
+    display: block;
+    list-style: none;
+  }
+
+  li {
+    padding: 25px;
+    font-size: 35px;
+  }
+
+  .container {
+    width: 300px;
+  }
+}
